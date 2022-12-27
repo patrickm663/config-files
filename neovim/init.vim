@@ -13,6 +13,7 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'rust-lang/rust.vim'
 Plug 'tikhomirov/vim-glsl'
 Plug 'JuliaEditorSupport/julia-vim'
+Plug 'JesseKPhillips/d.vim'
 
 " auto complete
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --racer-completer --omnisharp-completer --tern-completer' }
@@ -226,3 +227,5 @@ let maplocalleader = ","
 " Remove <Tab> from the list of keys mapped by YCM.
 let g:ycm_key_list_select_completion = ['<Down>']
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "ᐅ"
+
+
