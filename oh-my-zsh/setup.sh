@@ -24,4 +24,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 cp .zshrc ~/.zshrc
 
 # Restart shell
-$(zsh)
+echo "Restart shell by running 'zsh'"
